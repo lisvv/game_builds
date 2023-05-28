@@ -1,5 +1,5 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 
 class InputSchema(BaseModel):
-    build: str
+    build: str = Field(example="forward_interest")
