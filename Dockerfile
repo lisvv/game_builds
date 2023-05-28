@@ -16,5 +16,3 @@ RUN yes | pip install --no-cache-dir "poetry==$POETRY_VERSION" \
     && poetry install --only main --no-interaction --no-ansi --no-cache
 
 COPY ./src .
-
-CMD ["/bin/sh", "-c", "python3 main.py"]

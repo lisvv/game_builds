@@ -1,5 +1,5 @@
-from services.tasks import TaskService
 from services.builds import BuildService
+from services.tasks import TaskService
 
 
 def get_task_service() -> TaskService:

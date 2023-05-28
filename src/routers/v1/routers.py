@@ -1,7 +1,6 @@
 from fastapi import APIRouter
 
-from routers.v1 import healthcheck
-from routers.v1 import tasks
+from routers.v1 import healthcheck, tasks
 
 router = APIRouter(prefix="/api/v1")
 
