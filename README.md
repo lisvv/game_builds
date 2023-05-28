@@ -1,7 +1,7 @@
 # Запуск приложения
 
 1. git clone `https://github.com/lisvv/test_game_builds.git`
-2. Запустить в корне проекта в терминале команду docker-compose up -d
+2. Запустить в корне проекта в терминале команду `docker-compose up -d`
 3. Документация к сервису станет доступна по адресу `http://localhost/docs`
 
 
